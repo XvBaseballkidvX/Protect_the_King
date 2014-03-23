@@ -7,8 +7,6 @@ import org.bukkit.plugin.java.JavaPlugin;
  */
 
 
-//I just had to make the classes for da git :3
-
 public class Main extends JavaPlugin{
 
     private static Main instance;
@@ -23,5 +21,9 @@ public class Main extends JavaPlugin{
 
     public static Main getInstance(){
         return instance;
+    }
+
+    public String getPrefix(){
+        return "§8[§cP.T.K§8]§7 ";
     }
 }
