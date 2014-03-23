@@ -1,5 +1,7 @@
 package net.nomads.PTK;
 
+import org.bukkit.plugin.java.JavaPlugin;
+
 /**
  * Created by joshuabetz on 3/22/14.
  */
@@ -7,7 +9,7 @@ package net.nomads.PTK;
 
 //I just had to make the classes for da git :3
 
-public class Main {
+public class Main extends JavaPlugin{
 
     private static Main instance;
 
@@ -19,7 +21,7 @@ public class Main {
 
     }
 
-    public Main get(){
+    public static Main getInstance(){
         return instance;
     }
 }
