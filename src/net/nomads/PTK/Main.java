@@ -1,5 +1,6 @@
 package net.nomads.PTK;
 
+import net.nomads.Managers.TeamManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
@@ -13,6 +14,10 @@ public class Main extends JavaPlugin{
 
     public void onEnable(){
         instance = this;
+        //TODO Register all listeners
+
+        TeamManager.getTeams().registerTeams();
+
     }
 
     public void onDisable(){

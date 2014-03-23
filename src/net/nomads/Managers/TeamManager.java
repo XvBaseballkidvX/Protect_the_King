@@ -43,4 +43,14 @@ public class TeamManager {
         String prefix = team.getColor() + "[" + team.getName() + "]";
         return prefix;
     }
+
+    public boolean isAlly(String attacker, String defender){
+        Team one = this.getTeam(attacker);
+        Team two = this.getTeam(defender);
+        if(one.getName().equalsIgnoreCase(two.getName())){
+            return true;
+        }else{
+            return false;
+        }
+    }
 }
