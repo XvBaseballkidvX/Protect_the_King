@@ -6,4 +6,3 @@ description: >
 commands:
   setspawn:
     description: Set the spawn for your current world.
-                     

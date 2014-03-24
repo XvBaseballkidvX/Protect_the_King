@@ -24,7 +24,7 @@ public class Team {
     }
 
     public ChatColor getColor(){
-        return color;
+        return this.color;
     }
 
     public Location getSpawnPoint(){
