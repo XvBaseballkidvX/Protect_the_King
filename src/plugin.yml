@@ -1,0 +1,9 @@
+name: Protect_the_King
+main: net.nomads.PTK.Main
+version: 1.0
+description: >
+             Minigame plugin
+commands:
+  setspawn:
+    description: Set the spawn for your current world.
+                     
